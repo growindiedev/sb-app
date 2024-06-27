@@ -7,7 +7,6 @@ import { SaltNonce } from "../components/customFields/SaltNonce";
 import { DAOAddress } from "../components/customFields/DAOAddress";
 import { ShamanAddress } from "../components/customFields/ShamanAddress";
 import { ParamTag } from "../components/customFields/ParamTag";
-import { MultiSelect } from "../components/customFields/MultiSelect";
 import { MDXEditorField } from "../components/customFields/MDXEditorField";
 import { YeetAmount } from "../components/customFields/YeetAmount";
 import { YeetReturn } from "../components/customFields/YeetReturn";
@@ -24,8 +23,7 @@ export const AppFieldLookup = {
   shamanAddress: ShamanAddress,
   saltNonce: SaltNonce,
   paramTag: ParamTag,
-  // multiSelect: MultiSelect,
-  // mdxEditor: MDXEditorField,
+  mdxEditor: MDXEditorField,
   yeetAmount: YeetAmount,
   yeetReturn: YeetReturn,
   yeetHelper: YeetHelper,
